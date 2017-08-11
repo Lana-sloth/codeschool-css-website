@@ -3,3 +3,52 @@ html, body, h1, h2, h3, p, ul, ol, li, a {
     border: 0;
     margin: 0;
 }
+
+body {
+    padding: 20px;
+}
+
+ul, ol {
+    margin: 0 0 0 50px;
+}
+
+h1 {
+    margin: 10px 0 15px 0;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+}
+
+h3 {
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 0 3px 0;
+}
+
+.nav{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.recipes {
+    margin: 0;
+    list-style-type: none;
+}
+
+.recipes li {
+    margin: 0 0 5px 0;
+    border: 1px solid #cccccc;
+    padding: 0 15px 15px 15px;
+}
+
+.recipes h3 {
+    border: 0;
+}
+
+.recipes a {
+    text-decoration: none;
+}
