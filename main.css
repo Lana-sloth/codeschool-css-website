@@ -57,6 +57,8 @@ h3 {
     text-decoration: none;
     padding: 1px 10px 3px 10px;
     border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 .nav a:hover {
     background-color: #afeeee;
@@ -92,6 +94,7 @@ h3 {
     border-radius: 5px;
     position: absolute;
     font-size: 12px;
+    transition: all 0.3s ease-in-out;
 }
 .recipes a:hover {
     background-color: #69cece;
@@ -118,6 +121,9 @@ h3 {
     margin-top: 20px;
     margin-bottom: 6px;
 }
+.suggest-form label span{
+    color: #69cece;
+}
 .suggest-form textarea {
     height: 100px;
     border: 1px solid #ddd;
@@ -131,7 +137,8 @@ h3 {
     border: 0 none;
     cursor: pointer;
     -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out; 
 }
 .suggest-form input[type=submit]:hover {
     background-color: #69cece;
