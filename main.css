@@ -3,6 +3,17 @@ html, body, h1, h2, h3, p, ul, ol, li, a {
     border: 0;
     margin: 0;
 }
+.clear-float:before,
+.clear-float:after {
+    content: "";
+    display: table;
+}
+.clear-float:after {
+    clear: both;
+}
+.clear-float {
+    zoom: 1;
+}
 body {
     font-family: "Open Sans",Helvetica,Arial,sans-serif!important;
     font-size: 15px;
@@ -77,7 +88,6 @@ h3 {
     border: 4px double #afeeee;
     border-radius: 8px;
     margin: 0 0 15px 0;
-    min-height: 240px;
 }
 .recipes h3 {
     border: 0;
@@ -92,16 +102,16 @@ h3 {
     color: #666666;
     cursor: pointer;
     border-radius: 5px;
-    position: absolute;
     font-size: 12px;
     transition: all 0.3s ease-in-out;
+    display: inline-block; 
 }
 .recipes a:hover {
     background-color: #69cece;
     color: #ffffff;
 }
 .recipes img {
-    float: left;
+    float: left; 
     width: 150px;
     height: 220px;
     padding: 20px 20px 0 0;
